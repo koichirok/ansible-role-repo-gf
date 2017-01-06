@@ -1,6 +1,8 @@
 Role Name
 =========
 
+[![Travis](https://travis-ci.org/koichirok/ansible-role-repo-gf.svg?branch=master)](https://travis-ci.org/koichirok/ansible-role-repo-gf)
+
 Installs [Ghettoforge](http://ghettoforge.org/index.php/Main_Page) repository for RHEL/CentOS.
 
 Requirements
