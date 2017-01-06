@@ -1,0 +1,16 @@
+---
+- name: Check repos' enabled value (must be unchanged).
+  ini_file:
+    dest: /etc/yum.repos.d/gf.repo
+    section: "{{ item }}"
+    option: enabled
+    value: '{{ 1 if item in repo_gf_enable_repos else 0 }}'
+    no_extra_spaces: yes
+  with_items: "{{ repo_gf_repositories }}"
+  register: check
+
+- name: Assert check results
+  assert:
+    that:
+      - not item|changed
+  with_items: "{{ check.results }}"

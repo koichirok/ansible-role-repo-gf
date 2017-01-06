@@ -1,0 +1,8 @@
+---
+- hosts: all
+  connection: docker
+  roles:
+    - role: ansible-role-repo-gf
+    - role: test-repo-gf
+    - { role: ansible-role-repo-gf, repo_gf_enable_repos: [ 'gf-testing', 'gf-testing-source' ] }
+    - { role: test-repo-gf, repo_gf_enable_repos: [ 'gf-testing', 'gf-testing-source' ] }

@@ -1,0 +1,16 @@
+galaxy_info:
+  author: KIKUCHI Koichiro
+  description: ansible role to install gf repo
+  license: CC0
+  min_ansible_version: 2.1
+  platforms:
+  - name: EL
+    versions:
+    - 5
+    - 6
+    - 7
+  galaxy_tags:
+    - packaging
+    - repository
+
+dependencies: []
