@@ -4,6 +4,7 @@
   yum:
     name: "{{ repo_gf_release_url }}"
     state: present
+    disable_gpg_check: yes
 
 - name: Enable/Disable repos.
   ini_file:
