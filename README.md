@@ -1,14 +1,9 @@
-Role Name
+koichirok.repo-gf
 =========
 
 [![Travis](https://travis-ci.org/koichirok/ansible-role-repo-gf.svg?branch=master)](https://travis-ci.org/koichirok/ansible-role-repo-gf)
 
 Installs [Ghettoforge](http://ghettoforge.org/index.php/Main_Page) repository for RHEL/CentOS.
-
-Requirements
-------------
-
-None.
 
 Role Variables
 --------------
@@ -27,11 +22,6 @@ repo_gf_enable_repos:
 `repo_gf_enable_repos` is variable to specify repositories which you want to enable by default.
  Possible values: gf, gf-plus, gf-testing, gf-source, gf-plus-source, gf-testing-source
 
-Dependencies
-------------
-
-None.
-
 Example Playbook
 ----------------
 
@@ -46,4 +36,4 @@ Example Playbook
 License
 -------
 
-CC0
+[CC0-1.0](./LICENSE)
