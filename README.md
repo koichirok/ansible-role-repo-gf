@@ -2,6 +2,7 @@ koichirok.repo-gf
 =========
 
 [![Travis](https://travis-ci.org/koichirok/ansible-role-repo-gf.svg?branch=master)](https://travis-ci.org/koichirok/ansible-role-repo-gf)
+[![Ansible Role](https://img.shields.io/ansible/role/14693.svg)](https://galaxy.ansible.com/koichirok/repo-gf/)
 
 Installs [Ghettoforge](http://ghettoforge.org/index.php/Main_Page) repository for RHEL/CentOS.
 
