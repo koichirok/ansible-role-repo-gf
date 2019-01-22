@@ -1,7 +1,5 @@
 ---
 
-repo_gf_release_ver: 10
-
 repo_gf_enable_repos:
   - "gf"
 

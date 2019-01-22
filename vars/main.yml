@@ -1,6 +1,6 @@
 ---
 
-repo_gf_release_url: http://mirror.symnds.com/distributions/gf/el/{{ ansible_distribution_major_version }}/gf/{{ ansible_architecture }}/gf-release-{{ ansible_distribution_major_version }}-{{ repo_gf_release_ver }}.gf.el{{ ansible_distribution_major_version }}.noarch.rpm
+repo_gf_release_url: http://mirror.ghettoforge.org/distributions/gf/gf-release-latest.gf.el{{ ansible_distribution_major_version }}.noarch.rpm
 
 repo_gf_repositories:
   - "gf"
